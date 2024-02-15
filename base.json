@@ -1,0 +1,113 @@
+[
+    {
+        "name" : "T-shirt",
+        "type" : "male",
+        "sale" : "30%",
+        "oldPrice" : "$50",
+        "newPrice" : "$35",
+        "image" : "./assets/images/sale_products/tshirts/tshirt1.jpg"
+    },
+    {
+        "name" : "T-shirt",
+        "type" : "female",
+        "sale" : "30%",
+        "oldPrice" : "$50",
+        "newPrice" : "$35",
+        "image" : "./assets/images/sale_products/tshirts/tshirt2.jpg"
+    },
+    {
+        "name" : "T-shirt",
+        "type" : "kids",
+        "sale" : "none",
+        "oldPrice" : "$20",
+        "image" : "./assets/images/sale_products/tshirts/tshirt3.jpg"
+    },
+    {
+        "name" : "Shoes",
+        "type" : "male",
+        "sale" : "25%",
+        "oldPrice" : "$80",
+        "newPrice" : "$60",
+        "image" : "./assets/images/sale_products/shoes/shoe1.jpg"
+    },
+    {
+        "name" : "Shoes",
+        "type" : "female",
+        "sale" : "none",
+        "oldPrice" : "$80",
+        "image" : "./assets/images/sale_products/shoes/shoe2.jpg"
+    },
+    {
+        "name" : "Shoes",
+        "type" : "kids",
+        "sale" : "none",
+        "oldPrice" : "$80",
+        "image" : "./assets/images/sale_products/shoes/shoe3.jpg"
+    },
+    {
+        "name" : "Pants",
+        "type" : "female",
+        "sale" : "50%",
+        "oldPrice" : "$100",
+        "newPrice" : "$50",
+        "image" : "./assets/images/sale_products/pants/pants1.jpg"
+    },
+    {
+        "name" : "Pants",
+        "type" : "male",
+        "sale" : "none",
+        "oldPrice" : "$90",
+        "image" : "./assets/images/sale_products/pants/pants2.jpg"
+    },
+    {
+        "name" : "Pants",
+        "type" : "kids",
+        "sale" : "none",
+        "oldPrice" : "$40",
+        "image" : "./assets/images/sale_products/pants/pants3.jpg"
+    },
+    {
+        "name" : "Jacket",
+        "type" : "male",
+        "sale" : "none",
+        "oldPrice" : "$90",
+        "image" : "./assets/images/sale_products/jackets/jacket1.jpg"
+    },
+    {
+        "name" : "Jacket",
+        "type" : "female",
+        "sale" : "40%",
+        "oldPrice" : "$120",
+        "newPrice" : "$72",
+        "image" : "./assets/images/sale_products/jackets/jacket2.jpg"
+    },
+    {
+        "name" : "Jacket",
+        "type" : "kids",
+        "sale" : "20%",
+        "oldPrice" : "$80",
+        "newPrice" : "$65",
+        "image" : "./assets/images/sale_products/jackets/jacket3.jpg"
+    },
+    {
+        "name" : "Hoodie",
+        "type" : "male",
+        "sale" : "none",
+        "oldPrice" : "$60",
+        "image" : "./assets/images/sale_products/hoodies/hoodie1.jpg"
+    },
+    {
+        "name" : "Hoodie",
+        "type" : "female",
+        "sale" : "none",
+        "oldPrice" : "$55",
+        "image" : "./assets/images/sale_products/hoodies/hoodie2.jpg"
+    },
+    {
+        "name" : "Hoodie",
+        "type" : "kids",
+        "sale" : "none",
+        "oldPrice" : "$45",
+        "image" : "./assets/images/sale_products/hoodies/hoodie3.jpg"
+    }
+]

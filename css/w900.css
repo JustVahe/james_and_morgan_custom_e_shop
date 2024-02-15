@@ -1,0 +1,161 @@
+@media only screen and (max-width: 900px) {
+
+    .header{
+        width: 100vw;
+        height: 70vh;
+    }
+    
+    .menu{
+        position: fixed;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    
+    .mainMenu{
+        width: 100vw;
+        padding: 2vh;
+        font-size: 2vh;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .menuBtn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 1.5vh;
+    }
+    
+    .menuLink:hover{
+        background: #232323;
+    }
+    
+    .menuIcons{
+        top: 1vh;
+    }
+    
+    /* Header */
+    
+    .headerSlider{
+        height: 63vh;
+        top: 7vh;
+    }
+    .bigSquare{
+        position: absolute;
+        width: 130vw;
+        height: 63vh;
+        border-radius: 45vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: all 800ms ease-in;
+    }
+
+    .headerSlider.first .bigSquare{
+        transform: translateX(30vw);
+        background-position: -300px 0px;
+    }
+    
+    .headerSlider.second .bigSquare{
+        transform: translateX(-60vw);
+        background-image: url("../assets/images/slider_img_2.jpg");
+        background-position: 150px 0px;
+    }
+    
+    .headerSlider.third .bigSquare{
+        transform: translateX(30vw);
+        background-image: url("../assets/images/slider_img_3.jpg");
+    }
+    
+    .headerSlider.fourth .bigSquare{
+        transform: translateX(-60vw);
+        background-image: url("../assets/images/slider_img_4.jpg");
+        background-position: center 0px;
+    }
+
+    .headerSlider.first .square{
+        top: 15vh;
+        left: 10vw;
+    }
+    
+    .headerSlider.second .square{
+        top: 25vh;
+        left: 80vw;
+    }
+    
+    .headerSlider.third .square{
+        top: 35vh;
+        left: 10vw;
+    }
+    
+    .headerSlider.fourth .square{
+        top: 15vh;
+        left: 80vw;
+    }
+    
+    .headerSlider.first .circle{
+        top: 25vh;
+        left: 16vw;
+    }
+    
+    .headerSlider.second .circle{
+        top: 35vh;
+        left: 84vw;
+    }
+    
+    .headerSlider.third .circle{
+        top: 15vh;
+        left: 16vw;
+    }
+    
+    .headerSlider.fourth .circle{
+        top: 25vh;
+        left: 84vw;
+    }
+    
+    .headerSlider.first .triangle{
+        top: 35vh;
+        left: 10vw;
+    }
+    
+    .headerSlider.second .triangle{
+        top: 15vh;
+        left: 80vw;
+    }
+    
+    .headerSlider.third .triangle{
+        top: 25vh;
+        left: 10vw;
+    }
+    
+    .headerSlider.fourth .triangle{
+        top: 35vh;
+        left: 80vw;
+    }
+
+    #text1{
+        top: 15vh;
+        left: 100px;
+    }
+    
+    #text2 {
+        top: 15vh;
+        right: 100px;
+    }
+    
+    #text3{
+        top: 15vh;
+        left: 100px;
+    }
+    
+    #text4{
+        top: 15vh;
+        right: 100px;
+    }
+
+    .product{
+        width: 100%;
+    }
+}
